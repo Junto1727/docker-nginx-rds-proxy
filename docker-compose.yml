@@ -1,4 +1,4 @@
-nginx-rds-proxy:
+docker-nginx-rds-proxy:
     build: .
     ports:
         - "5432:5432"
